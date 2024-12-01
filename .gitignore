@@ -394,5 +394,19 @@ FodyWeavers.xsd
 *.msm
 *.msp
 
+# Ignorar los archivos de configuración de Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Ignorar las credenciales de Firebase
+DirectorioFPSC/directoriofpsc-442901-b64f93e53db1.json
+DirectorioFPSC/directoriofpsc-firebase-adminsdk-uoeo6-ce9518a75b.json
+
+# Ignorar los archivos de log
+*.log
+
+
 # JetBrains Rider
 *.sln.iml
